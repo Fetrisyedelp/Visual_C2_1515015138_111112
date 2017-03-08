@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tugaspostest1;
+package Tugas1;
 
 /**
  *
  * @author Asus
  */
-public class TugasPostest1 {
+public class Postest1 {
 
     /**
      * @param args the command line arguments

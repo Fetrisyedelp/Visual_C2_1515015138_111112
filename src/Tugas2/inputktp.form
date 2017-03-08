@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="182" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="BReset" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BRegister" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BReset" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="294" max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="LblNama" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblTTL" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblAlamat" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblJk" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LblKota" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblKec" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblKel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblRt" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="LblAgama" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblGoldar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblPkrj" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblKwrg" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="CbGoldar" min="-2" max="-2" attributes="0"/>
+                          <Component id="CbStatus" min="-2" max="-2" attributes="0"/>
+                          <Component id="CbAgama" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="RbLk" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="RbPr" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="TfTmpt" min="-2" pref="107" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" pref="6" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="TfTl" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="TfAlamat" alignment="0" pref="246" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="TfRt" min="-2" pref="37" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="TfRw" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="TfKel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TfKec" max="32767" attributes="0"/>
+                          <Component id="TfKota" max="32767" attributes="0"/>
+                          <Component id="TfPkrj" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TfNama" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="RbWna" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="RbWni" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LblNama" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfNama" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LblTTL" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfTmpt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfTl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LblJk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RbLk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RbPr" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TfAlamat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblAlamat" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TfRt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfRw" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblRt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TfKel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblKel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="LblKec" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfKec" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="LblKota" min="-2" max="-2" attributes="0"/>
+                      <Component id="TfKota" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CbAgama" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblAgama" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CbStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CbGoldar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblGoldar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TfPkrj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblPkrj" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="LblKwrg" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="RbWna" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RbWni" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="FORM ISIAN"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblNama">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfNama">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblTTL">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tempat/Tanggal Lahir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfTmpt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="/"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfTl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblJk">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Jenis Kelamin"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="RbLk">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Laki-laki"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="RbPr">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Perempuan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblAlamat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Alamat"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfAlamat">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblRt">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="RT/RW"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfRt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="/"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfRw">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblKel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kel/Desa"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfKel">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblKec">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kecamatan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfKec">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblKota">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kota"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfKota">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblAgama">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Agama"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="CbAgama">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="ISLAM"/>
+                <StringItem index="1" value="KRISTEN"/>
+                <StringItem index="2" value="BUDHA"/>
+                <StringItem index="3" value="HINDU"/>
+                <StringItem index="4" value="KONGHUCHU"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CbAgamaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblStatus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Status"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="CbStatus">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="KAWIN"/>
+                <StringItem index="1" value="BELUM KAWIN"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CbStatusMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblGoldar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Golongan Darah"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="CbGoldar">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="A"/>
+                <StringItem index="1" value="B"/>
+                <StringItem index="2" value="O"/>
+                <StringItem index="3" value="AB"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CbGoldarMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblPkrj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pekerjaan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TfPkrj">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblKwrg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kewarganegaraan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="RbWna">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="WNA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="RbWni">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup2"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="WNI"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FORM KARTU TANDA PENDUDUK"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BRegister">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Register"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BRegisterActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BReset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BResetActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
